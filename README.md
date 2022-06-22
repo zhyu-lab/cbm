@@ -72,6 +72,16 @@ The cell-to-subclone assignments are written to a file with suffix "assignment.t
 
 * `-b, --beta <Double>` Set \<Double\> to estimated false negative rate of the single-cell sequencing experiment.
 
+## Visualize results
+
+Users can use the MATLAB script visualize_results.m in subdirectory util to visualize the results of CBM.
+
+Example:
+
+```
+visualize_results(cellAssignFile,genotypeFile,outputFile)
+```
+
 ## Contact
 
 If you have any questions, please contact zhyu@nxu.edu.cn.
